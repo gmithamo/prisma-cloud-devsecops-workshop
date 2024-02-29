@@ -1,8 +1,5 @@
 name: checkov
- on:
- pull_request:
- push:
- branches:
+on:[pull_request, push, branches]
  - main
  jobs:
  scan:
