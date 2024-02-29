@@ -1,7 +1,7 @@
 name: checkov
 on: [pull_request, push, branches]
 - main
- jobs:
+jobs:
  scan:
   runs-on: ubuntu-latest 
   permissions:
